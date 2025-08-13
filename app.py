@@ -123,5 +123,7 @@ def download_history():
     mem.seek(0)
     return send_file(mem, mimetype="text/csv", as_attachment=True, download_name="history.csv")
 
+
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
