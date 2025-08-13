@@ -1,6 +1,6 @@
 flask
 flask-cors
-tensorflow-cpu==2.12.0
+tensorflow-cpu==2.19.0
 pandas
 numpy
 gunicorn
