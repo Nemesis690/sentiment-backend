@@ -1,16 +1,6 @@
-# Core web framework
-flask==2.2.5
-flask-cors==3.0.10
-
-# ML / data processing
+flask
+flask-cors
 tensorflow-cpu==2.12.0
-pandas==2.0.3
-numpy==1.24.4
-
-# Server
-gunicorn==21.2.0
-
-# Build essentials (avoid version pinning conflicts)
-pip>=24.2
-setuptools>=65.5.0
-wheel
+pandas
+numpy
+gunicorn
